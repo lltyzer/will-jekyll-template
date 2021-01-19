@@ -2,7 +2,7 @@
 
 ## Will Jekyll Template - [Demo](https://willianjusten.github.io/will-jekyll-template)
 
-![Screenshot](screenshot.png)
+![Screenshot](readme_pic/screenshot.png)
 
 This is a simple and minimalist template for Jekyll designed for developers that want to write blog posts but don't want to care about frontend stuff.
 
@@ -38,6 +38,29 @@ The Theme features:
 6. Edit [this line in the search component](https://github.com/willianjusten/will-jekyll-template/blob/gh-pages/src/js/simpleJekyllSearch.js#L4) to point to your own url.
 7. Read the documentation below for further customization pointers and documentation.
 8. **Remember to compile your assets files using Gulp!**
+
+## Note for Windows users
+
+### 1.Gulp
+
+Please make sure your **gulp version cannot be higher than 3.9.1**, otherwise the project will not be compiled successfully.
+
+You can follow the commands below to install gulp.
+
+```
+npm install -g gulp@3.9.1
+```
+![Screenshot](readme_pic/gulp_installed.png)
+
+---
+
+### 2. ReferenceError: primordials is not defined in node
+
+![Screenshot](readme_pic/gulp_erro_fixed.png)
+
+---
+
+The solution can refer to [this](https://stackoverflow.com/questions/55921442/how-to-fix-referenceerror-primordials-is-not-defined-in-node) stack overflow's answer
 
 ## Site and User Settings
 
