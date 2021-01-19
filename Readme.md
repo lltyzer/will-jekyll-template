@@ -50,13 +50,13 @@ You can follow the commands below to install gulp.
 ```
 npm install -g gulp@3.9.1
 ```
-![Screenshot](readme_pic/gulp_installed.png)
+![Screenshot](readme_pic/gulp_installed.PNG)
 
 ---
 
 ### 2. ReferenceError: primordials is not defined in node
 
-![Screenshot](readme_pic/gulp_erro_fixed.png)
+![Screenshot](readme_pic/gulp_erro_fixed.PNG)
 
 ---
 
